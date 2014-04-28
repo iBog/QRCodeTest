@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <FrameLayout
+        android:id="@+id/cameraPreview"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:id="@+id/scanText"
+        android:text="@string/scan_process_label"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black" />
+
+
+    <ImageView
+        android:id="@+id/bar_code"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_gravity="center"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:id="@+id/code_for_bar"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text="123456789" />
+
+</LinearLayout>

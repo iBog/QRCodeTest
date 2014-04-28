@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Code Test</string>
+    <string name="scan_process_label">Scanning…</string>
+    <string name="scan_label">Scan</string>
+    <string name="scan_result_label">Last scan result: </string>
+</resources>

@@ -1,0 +1,13 @@
+CVS
+target
+out
+bin
+gen
+build
+proguard
+.idea
+.idea/*.*
+*.iml
+*.apk
+.gradle
+.gradle/*.*
